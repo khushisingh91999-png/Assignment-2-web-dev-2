@@ -1,93 +1,86 @@
-body {
-    margin: 0;
-    padding: 40px;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #202d7a, #0f1b4d);
-    color: white;
+body{
+margin:0;
+font-family:Arial;
+background:linear-gradient(#1f2a6c,#0f1743);
+color:white;
 }
 
-h1 {
-    text-align: center;
-    margin-bottom: 40px;
+.wrapper{
+width:900px;
+margin:auto;
+padding-top:40px;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-bottom: 30px;
+h1{
+text-align:center;
+margin-bottom:30px;
 }
 
-.card {
-    width: 480px;
-    background: #f2f2f2;
-    color: black;
-    padding: 25px;
-    border-radius: 12px;
+.top{
+display:flex;
+gap:20px;
 }
 
-.search-box {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 20px;
+.card{
+background:#f2f2f2;
+color:black;
+padding:20px;
+border-radius:10px;
+flex:1;
 }
 
-input {
-    flex: 1;
-    padding: 10px;
-    border-radius: 6px;
-    border: 1px solid #ccc;
+.searchBox{
+display:flex;
+gap:10px;
+margin-bottom:20px;
 }
 
-button {
-    background: #f36c2d;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 6px;
-    cursor: pointer;
+input{
+flex:1;
+padding:8px;
 }
 
-button:hover {
-    background: #d85c23;
+button{
+background:#ff6b2c;
+color:white;
+border:none;
+padding:8px 15px;
+border-radius:5px;
+cursor:pointer;
 }
 
-#history button {
-    background: #f36c2d;
-    border-radius: 20px;
-    padding: 6px 12px;
-    margin: 5px 5px 0 0;
+#history button{
+margin:5px;
+font-size:12px;
+padding:4px 10px;
 }
 
-.row {
-    display: flex;
-    justify-content: space-between;
-    background: #e5e5e5;
-    padding: 10px;
-    margin-bottom: 6px;
-    border-left: 4px solid #f36c2d;
-    border-radius: 4px;
+.weatherRow{
+display:flex;
+justify-content:space-between;
+padding:8px;
+margin-bottom:5px;
+background:#e6e6e6;
+border-left:4px solid #ff6b2c;
 }
 
-.console-card {
-    width: 990px;
-    margin: auto;
-    background: #f2f2f2;
-    padding: 20px;
-    border-radius: 12px;
-    color: black;
+.consoleCard{
+background:#f2f2f2;
+margin-top:20px;
+padding:15px;
+border-radius:10px;
+color:black;
 }
 
-.console {
-    background: #1b245a;
-    color: #b7f9ff;
-    padding: 15px;
-    border-radius: 8px;
-    font-family: monospace;
-    min-height: 120px;
+#consoleBox{
+background:#121c4a;
+color:#00ffa6;
+padding:15px;
+border-radius:5px;
+font-family:monospace;
+min-height:90px;
 }
 
-.error {
-    color: red;
-    margin-top: 10px;
+#error{
+color:red;
 }
